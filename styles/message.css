@@ -1,0 +1,46 @@
+﻿/* CSS Document */
+body{
+	background:url(../media/bg.png);
+	padding:5px;}
+
+.container{
+	background:#FFF;
+	border-radius: 10px 10px 0px 0px;
+	border: 2px solid #006;
+	box-sizing:border-box;
+	width:1000px;
+	min-width:500px;
+	min-height:800px;
+	margin:15px auto;
+	margin-top:70px;
+	padding:15px;
+	position:relative;}
+	
+.message{
+	width:100%;
+	padding-left:0px;
+	padding-right:0px;
+	border-bottom:solid 1px #297ECB;
+	margin-bottom:5px;}
+
+.inf{
+	width:100px;
+	color:#297ECB;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:right;}
+	
+.mess_text{
+	display:table-cell;
+	vertical-align:middle;
+	padding-left:20px;}
+	
+.inf small{
+	color:#036;}
+	
+.user_link{
+	color:#297ECB;
+	text-decoration:none;}
+	
+.user_link:hover{
+	color:#036;}

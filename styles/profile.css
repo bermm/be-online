@@ -1,0 +1,54 @@
+﻿/* CSS Document */
+body{
+	background:url(../media/bg.png);
+	padding:5px;}
+
+.container{
+	background:#FFF;
+	border-radius: 10px  10px 0px 0px;
+	border: 2px solid #006;
+	box-sizing:border-box;
+	width:1000px;
+	min-width:500px;
+	min-height:500px;
+	margin:15px auto;
+	margin-top:50px;
+	padding:15px;
+	position:relative;}
+
+#profile-results{
+	margin-top:0px;
+	color:#036;
+	font-family:"Courier New", Courier, monospace;}
+
+#others{
+	padding-top:20px;}
+
+#others a{
+	color:#036;
+	text-decoration:none;
+	font-family:"Courier New", Courier, monospace;
+	text-align:right;}
+
+#others a:hover{
+	color:#297ECB;}	
+
+#message_area{
+	text-align:center;}
+
+#message{
+	text-align:center;}
+
+.message-btn, #dialogue{
+	width:150px;
+	border: 1px solid #036;
+	background:transparent;
+	color:#036;
+	text-decoration:none;
+	font-family:"Courier New", Courier, monospace;
+	margin-top:5px;}
+	
+.message-btn:hover, #dialogue:hover{
+	background:#036;
+	color:#fff;
+	cursor:pointer;}

@@ -1,0 +1,113 @@
+﻿/* CSS Document */
+body{
+	background:url(../media/bg.png);
+	padding:5px;}
+
+.container{
+	background:#FFF;
+	border-radius: 10px 10px 0px 0px;
+	border: 2px solid #006;
+	box-sizing:border-box;
+	width:1000px;
+	min-width:850px;
+	min-height:120px;
+	margin:0px auto;
+	margin-top:50px;
+	padding:15px;
+	position:relative;}
+
+#incontainer{
+	display:none;
+	width:100%;
+	margin-top:0px;
+	max-height:405px;
+	min-height:200px;
+	overflow:auto;}
+
+
+.message{
+	width:100%;
+	padding-left:0px;
+	padding-right:0px;
+	border-bottom:solid 1px #297ECB;
+	margin-bottom:5px;}
+
+.inf{
+	width:100px;
+	color:#297ECB;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:right;}
+
+.inf small{
+	color:#036;}
+	
+.mess_text{
+	width:800px;
+	display:table-cell;
+	vertical-align:middle;
+	padding-left:20px;
+	padding-right:20px;}
+
+.mess_del{
+	display:table-cell;
+	vertical-align:middle;}
+	
+.user_link{
+	color:#297ECB;
+	text-decoration:none;}
+	
+.user_link:hover{
+	color:#036;}
+	
+.del{
+	border: 1px solid #297ECB;
+	background:transparent;
+	color:#036;
+	text-decoration:none;
+	font-family:"Courier New", Courier, monospace;}
+
+.del:hover{
+	color:#297ECB;
+	cursor:pointer;}
+
+.message_field{
+	display:none;
+	margin:10px auto;}
+	
+.send-btn{
+	display:none;
+	margin:10px auto;
+	border: 1px solid #036;
+	background:transparent;
+	color:#036;
+	text-decoration:none;
+	font-family:"Courier New", Courier, monospace;}
+	
+.send-btn:hover{
+	background:#036;
+	color:#fff;
+	cursor:pointer;}
+	
+#ajax_loader{
+	background:#FFF;
+	border-radius: 10px;
+	box-sizing:border-box;
+	width:980px;
+	min-width:500px;
+	height:80px;
+	padding:20px;
+	text-align:center;
+	position:fixed;
+	top:90px;
+	left:50%;
+	margin-left:-490px;
+	opacity:0;
+	z-index:1;
+	display:none;}
+
+#ajax_gif{
+	width:50px;}
+
+#player{
+	display:none;}

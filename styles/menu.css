@@ -1,0 +1,255 @@
+﻿/* CSS Document */
+
+/* БОКОВЕ МЕНЮ*/	
+/*.nav-menu{
+	list-style:none;
+	text-transform:uppercase;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	width:50px;
+	}
+
+.nav-menu li{
+	height:50px;
+	width:50px;
+	overflow:hidden;
+	}
+	
+.home:hover{
+	width:150px;
+	height:130px;}
+
+.user:hover{
+	width:150px;
+	height:170px;}
+	
+.media:hover{
+	width:150px;
+	height:130px;}	
+	
+.settings:hover{
+	width:150px;
+	height:210px;}
+	
+.search:hover{
+	width:150px;
+	}	
+	
+.nav-menu li a{
+	display:block;
+	width: 150px;
+	height:40px;
+	line-height:40px;
+	background:#096;
+	margin:1px;
+	color:#FFF;
+	padding-left:20px;
+	cursor:pointer;
+	
+	transition-property:all;
+	transition-duration:0.2s;
+	transition-timing-function:ease-in-out;
+	}
+
+.nav-menu li a:hover{
+	background:#066;
+	}
+	
+.nav-menu li a:first-child{
+	font-size:1.2em;
+	height:50px;
+	line-height:50px;
+	position:relative;
+	text-indent:30px;
+	}
+.nav-menu li a:first-child::before{
+	content:'';
+	position:absolute;
+	display:block;
+	height:48px;
+	width:48px;
+	top: 1px;
+	left:0px;
+	bottom:1px;}
+	
+.home a:first-child::before{
+	background:url(../media/home.ico) center no-repeat;
+	background-size: 48px;
+	}	
+.home a:first-child::before{
+	background:url(../media/home.ico) center no-repeat;
+	background-size: 48px;
+	}
+	
+.user a:first-child::before{
+	background:url(../media/user.ico) center no-repeat;
+	background-size: 48px;
+	}
+	
+.media a:first-child::before{
+	background:url(../media/wmplayer.ico) center no-repeat;
+	background-size: 48px;
+	}
+	
+.settings a:first-child::before{
+	background:url(../media/settings.ico) center no-repeat;
+	background-size: 48px;
+	}
+	
+.search a:first-child::before{
+	background:url(../media/search.ico) center no-repeat;
+	background-size: 48px;
+	}*/
+	
+
+/*МЕНЮ*/
+nav{
+	background:transparent;
+	text-transform:uppercase;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	display:block;
+	text-align:center;}
+	
+nav ul ul{
+	display:none;
+	padding:0px;}
+	
+nav ul li:hover>ul{
+	display:block;}	
+
+#menu{
+	display:inline-block;
+	box-shadow: 0px 2px 2px #06C;}
+
+nav ul{
+	display:inline-block;
+	background:transparent;
+	margin:auto;
+	padding:5px;
+	border-radius:10px;
+	list-style:none;}
+	
+nav ul>li{
+	float:left;
+	width:160px;}
+	
+nav ul li a{
+	text-decoration:none;
+	display:block;
+	margin: 2px;
+	border: 1px solid;
+	padding: 10px;
+	color:#036;
+	border-radius:10px;
+	background:#FFF;
+	text-align:left;}
+	
+nav ul li:hover>a{
+	color:#297ECB;
+	cursor:pointer;}
+	
+nav ul li ul li a{
+	font-size:10px;
+	padding:3px;
+	border-radius:5px;}
+	
+#main{
+	text-indent:30px;
+	background:url(../media/home.ico) center no-repeat;
+	background-size: 32px;
+	background-position: 2px 2px;}
+
+#user{
+	text-indent:25px;
+	background:url(../media/user.ico) center no-repeat;
+	background-size: 32px;
+	background-position: 2px 2px;}
+
+#media{
+	text-indent:30px;
+	background:url(../media/wmplayer.ico) center no-repeat;
+	background-size: 32px;
+	background-position: 2px 2px;}
+
+#settings{
+	text-indent:30px;
+	background:url(../media/settings.ico) center no-repeat;
+	background-size: 32px;
+	background-position: 2px 2px;}
+
+#search{
+	text-indent:30px;
+	background:url(../media/search.ico) center no-repeat;
+	background-size: 32px;
+	background-position: 2px 2px;}
+	
+.sub-user a{
+	text-align:center;}
+	
+.sub-media a{
+	text-align:center;}
+
+.sub-settings a{
+	text-align:center;}
+/*---------------------------*/
+
+/*БЛОК з логіном та меню*/
+#menu_container{
+	background:#FFF;
+	border-radius: 0px 0px 10px 10px;
+	border: 2px solid #006;
+	box-sizing:border-box;
+	width:1000px;
+	min-width:500px;
+	height:65px;
+	margin-left:-500px;
+	padding:5px;
+	position:fixed;
+	top:0px;
+	left:50%;
+	z-index:1;
+	box-shadow:0px 3px 2px #06C;}
+
+#login{
+	color:#FFF;
+	width:120px;
+	font-size:11px;
+	font-variant:small-caps;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:right;
+	position:fixed;
+	top:10px;
+	right:10px;}
+
+#login a{
+	color:inherit;
+	text-decoration:none;
+	font-family:"Courier New", Courier, monospace;
+	font-size:10px;}
+	
+#login a:hover{
+	cursor:pointer;}
+	
+#name{
+	float:left;
+	width:104px;
+	height:16px;
+	line-height:16px;}
+	
+#btn_img{
+	display:inline-block;
+	height:16px;
+	width:16px;}	
+
+.sub-btn{
+	background:url(../media/exit.ico) no-repeat center;
+	background-size:16px;
+	border:none;
+	width:20px;
+	height:16px;}
+	
+.sub-btn:hover{
+	cursor:pointer;}
+/*---------------------------*/

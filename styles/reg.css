@@ -1,0 +1,101 @@
+body{
+	background:url(../media/green_bg.png);
+	padding:5px;}
+		
+#content{
+	background:#DAECAA;
+	box-shadow:3px 5px 3px #030;
+	box-sizing:border-box; /*content-box*/
+	border: 2px solid #14650C;
+	border-radius:10px;
+	color:#036;
+	font-family:"Courier New", Courier, monospace;
+	max-width:1000px;
+	min-height:300px;
+	margin:0 auto;
+	margin-top:10px;
+	padding:10px;
+	text-align:center;}
+	
+strong{
+	font-size:20px;
+	text-transform:uppercase;}
+	
+.failed-reg{
+	color:#C00;}
+
+.success-reg{
+	color:#18870C;}
+
+a{
+	color:#036;
+	font-size:18px;
+	text-decoration:none;}
+	
+a:hover{
+	color:#297ECB;}
+
+.input{
+	height:20px;
+	color:#030;
+	width:175px;}
+	
+.sub-btn{
+	background:transparent;
+	border:1px solid #030;
+	font-variant:small-caps;}
+	
+.sub-btn:hover{
+	cursor:pointer;
+}
+
+#reg_submit_btn{
+	margin-bottom:5px;}
+
+#login-no-img, #email-no-img, #name-no-img, #pass-no-img, #repeatpass-no-img{
+	display:none;
+	width:16px;
+	height:16px;
+	vertical-align:middle;}
+	
+#login-ok-img, #email-ok-img,#name-ok-img, #pass-ok-img, #repeatpass-ok-img{
+	display:none;
+	width:16px;
+	height:16px;
+	vertical-align:middle;}
+	
+	
+.inline{
+	display:inline-block;
+	margin-left:10px;
+	margin-bottom:10px;}
+	
+.field_name{
+	width:110px;
+	text-align:right;
+	font-family:Verdana, Geneva, sans-serif;}
+	
+.image{
+	width:20px;}
+	
+#age_field{
+	width:179px;
+	height:26px;}
+	
+#note, #requirements{
+	font-size:11px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:italic;}
+
+#note{
+	margin-top:5px;}
+	
+#requirements{
+	text-decoration:underline;}
+	
+#requirements:hover{
+	cursor:pointer;}
+	
+#loaderImage{
+	display:none;
+	margin:0px auto;}

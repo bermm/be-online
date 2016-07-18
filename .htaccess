@@ -1,0 +1,14 @@
+#Заборона перегляду каьалогів сайту
+Options All -Indexes
+
+#Захист .htaccess файла
+<files .htaccess="">
+order allow,deny
+deny from all
+</files>
+
+#Заборона доступу для всіх, крім вказаних IP-адрес та перенаправлення на сторінку error403.php
+ErrorDocument 403 /error403.html
+Order deny,allow
+Deny from all
+Allow from 127.0.0.1
