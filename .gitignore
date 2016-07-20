@@ -48,3 +48,7 @@ Temporary Items
 
 #Audio files folder
 /media/audio/
+.buildpath
+.project
+.settings/org.eclipse.php.core.prefs
+.settings/org.eclipse.wst.common.project.facet.core.xml

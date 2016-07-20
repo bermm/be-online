@@ -12,7 +12,6 @@
 			$rez = file_get_contents(URL."/pages_elements/profile_results.tpl");
 			$rez =	str_replace('{name}',$user['name'],$rez);
 			$rez =	str_replace('{email}',$user['email'],$rez);
-			$rez =	str_replace('{age}',$user['age'],$rez);
 			$rez =	str_replace('{date}',substr($user['date'], 0, 10),$rez);
 			
 			echo $rez;

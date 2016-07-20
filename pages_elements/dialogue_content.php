@@ -33,7 +33,7 @@
 					if($("button").is(".del")){start_id = $(".del:last").attr("id");}
 					else {start_id = 0;};			
 						
-					$.post("http://be-online.sytes.net/scripts/php/dialogueAutoUpdate.php",
+					$.post("http://be-online/scripts/php/dialogueAutoUpdate.php",
 								{jq_get:get_id,
 								jq_ses:session_id,
 								jq_name:session_name,
@@ -67,7 +67,7 @@
 					else {start_id = 0;};	
 			
 					if (dmessage!==''){		
-						$.post("http://be-online.sytes.net/scripts/php/dialogue.php",
+						$.post("http://be-online/scripts/php/dialogue.php",
 								{jq_mes: dmessage,
 								jq_get:get_id,
 								jq_ses:session_id,

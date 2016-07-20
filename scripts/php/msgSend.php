@@ -1,5 +1,5 @@
 <?php		
-	set_include_path(get_include_path().";E:/OpenServer/domains/be-online/".";E:/OpenServer/domains/be-online/classes/");
+	set_include_path(get_include_path().";W:/OpenServer/domains/be-online/".";W:/OpenServer/domains/be-online/classes/");
 	
 	define("URL", "http://".$_SERVER['SERVER_NAME']);
 	define("PATH",$_SERVER['DOCUMENT_ROOT']);

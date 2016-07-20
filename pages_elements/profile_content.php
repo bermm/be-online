@@ -34,7 +34,7 @@
 					message = $.trim(message);	
 			
 					if (message!==''){		
-						$.post("http://be-online.sytes.net/scripts/php/msgSend.php",
+						$.post("http://be-online/scripts/php/msgSend.php",
 								{jq_mes: message,
 								jq_get:get_id,
 								jq_ses:session_id,

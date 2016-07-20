@@ -10,7 +10,6 @@
            <li><a id="media">медіа</a>
                 <ul>
                     <li class="sub-media"><a href="{path}/media_music.php">музика</a></li>
-                    <li class="sub-media"><a href="{path}/media_video.php">відео</a></li>
                 </ul>
            </li>
            <li><a id="settings">налаштування</a>
