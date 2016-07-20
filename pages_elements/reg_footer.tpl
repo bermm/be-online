@@ -13,12 +13,18 @@
 					switch(field){
 						case "#reg-name":
 							var name_sample = /^(([A-Z][a-z]{1,15})|([А-ЯІЇЁ][а-яіїё]{1,15}))$/;
-							if (!($(field).val()).match(name_sample)){$(no_img).show(); $(ok_img).hide(); boolname = 0;}
-							else{$(no_img).hide(); $(ok_img).show(); boolname = 1;}
+							if (!($(field).val()).match(name_sample)){
+								$(no_img).show(); $(ok_img).hide(); boolname = 0;
+							}
+							else {
+								$(no_img).hide(); $(ok_img).show(); boolname = 1;
+							}
 							break
 						case "#reg-login":
 							var login_sample = /^([A-Za-z0-9_\.-]{4,15})$/;
-							if (!($(field).val()).match(login_sample)){$(no_img).show(); $(ok_img).hide(); boollog = 0;}
+							if (!($(field).val()).match(login_sample)){
+								$(no_img).show(); $(ok_img).hide(); boollog = 0;
+							}
 							else {
 							$.post("http://be-online/scripts/php/fieldCheck.php",
 								{jq_field_name: post_name,
@@ -29,23 +35,38 @@
 							break
 						case "#reg-email":
 							var email_sample = /^([A-Za-z0-9_\.-])+@[a-z0-9_\.-]+\.([a-z]{2,4})$/;
-							if (!($(field).val()).match(email_sample)){$(no_img).show(); $(ok_img).hide(); boolemail = 0;}
+							if (!($(field).val()).match(email_sample)){
+								$(no_img).show(); $(ok_img).hide(); boolemail = 0;
+							}
 							else {
 								$.post("http://be-online/scripts/php/fieldCheck.php",
 								{jq_field_name: post_name,
 								jq_text: $(field).val()}, 
 							function(data){
-								if(data > 0){$(no_img).show(); $(ok_img).hide(); booemail = 0;} else{$(no_img).hide(); $(ok_img).show(); boolemail = 1;}
-								});}
+								if(data > 0){
+									$(no_img).show(); $(ok_img).hide(); booemail = 0;
+								}
+								else {
+									$(no_img).hide(); $(ok_img).show(); boolemail = 1;
+								}});
+							}
 							break
 						case "#reg-pass":
 							var pass_sample = /^([\w\!\@\#\$\%\^\&\?\*\(\)\-\=\+\[\]\;\:\'\.\,]{7,20})$/;
-							if (!($(field).val()).match(pass_sample)){$(no_img).show(); $(ok_img).hide(); boolpass = 0;}
-							else{$(no_img).hide(); $(ok_img).show(); boolpass = 1;}
+							if (!($(field).val()).match(pass_sample)){
+								$(no_img).show(); $(ok_img).hide(); boolpass = 0;
+							}
+							else {
+								$(no_img).hide(); $(ok_img).show(); boolpass = 1;
+							}
 							break
 						case "#reg-repeatpass":
-							if ($(field).val() === $("#reg-pass").val()){$(no_img).hide(); $(ok_img).show(); boolrepeatpass = 1;}
-							else{$(no_img).show(); $(ok_img).hide(); boolrepeatpass = 0;}
+							if ($(field).val() === $("#reg-pass").val()){
+								$(no_img).hide(); $(ok_img).show(); boolrepeatpass = 1;
+							}
+							else {
+								$(no_img).show(); $(ok_img).hide(); boolrepeatpass = 0;
+							}
 						}
 					}
 					else{

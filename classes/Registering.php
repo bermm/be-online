@@ -9,7 +9,7 @@
 			(preg_match($sample_name, $name)) or die ("<strong class=\"failed-reg\">Введене ім'я не відповідає вимогам!</strong>");
 			
 			$login = trim($_POST["reg_log_edit"]); // отримання логіна з форми
-			$sample_login = "/^[A-Za-z0-9\._-]{5,20}\$/"; // регулярний вираз 
+			$sample_login = "/^[A-Za-z0-9\._-]{4,15}\$/"; // регулярний вираз 
 			if (!preg_match($sample_login, $login)) die("<strong class=\"failed-reg\">Логін задано некоректно!</strong>");
 			
 			$mysqli = new MySQLi(MySQL_SERVER, MySQL_USER, MySQL_PASSWORD) or die ("Can not connect to the database server"); //з'єднання з сервером баз даних (серевер - користувач - пароль)
