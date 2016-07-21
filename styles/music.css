@@ -1,15 +1,15 @@
 /* CSS Document */
 
 .container{
-	background:#FFF;
+	/*background:rgba(255,255,255,1);
 	border-radius: 10px 10px 0px 0px;
 	border: 2px solid #006;
+	padding:15px;*/
 	box-sizing:border-box;
 	width:1000px;
 	min-width:500px;
 	margin:15px auto;
 	margin-top:10px;
-	padding:15px;
 	position:relative;}
 
 #inconteiner{
@@ -142,10 +142,10 @@
 	bottom:30px;}
 /*---------------------------*/
 .play_btn{
-	background:url(../media/play_song.ico);}
+	background:url(../media/play_song.png);}
 
 .pause_btn{
-	background:url(../media/pause_song.ico);}
+	background:url(../media/pause_song.png);}
 
 
 .play_btn, .pause_btn{
@@ -154,7 +154,7 @@
 	background-size:16px;
 	background-repeat:no-repeat;
 	background-position:center;
-	border:1px solid #1485A1;
+	border:1px solid #FFF;
 	border-radius:5px;
 	width:24px;
 	height:24px;
@@ -163,20 +163,16 @@
 .pause_btn{
 	display:none;}
 	
-.play_btn:hover{
+.play_btn:hover, .pause_btn:hover{
 	cursor:pointer;
 	background-size:18px;}
-
-.pause_btn:hover{
-	cursor:pointer;
-	background-size:18px;}	
 
 .song_name{
 	font-family:Calibri;
 	font-variant:small-caps;
 	height:24px;
 	line-height:24px;
-	border:1px solid #1485A1;
+	border:1px solid #FFF;
 	border-radius:5px;
 	margin-bottom:5px;
 	margin-left:30px;
@@ -185,7 +181,8 @@
 	
 .song{
 	width:100%;
-	margin-bottom:5px;}
+	margin-bottom:5px;
+	color:#FFF;}
 
 .mp3, .ogg{
 	display:none;}

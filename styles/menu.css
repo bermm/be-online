@@ -1,8 +1,7 @@
 /* CSS Document */
 	
 body{
-	background:url(../media/bg.png);
-	padding:5px;}	
+	background:url(../media/bg.png);}	
 	
 .nav-menu{
 	list-style:none;
@@ -14,6 +13,8 @@ body{
 	position:fixed;
 	left:10px;
 	top: 10px;
+	padding:0px;
+	margin:0px;
 	}
 
 .nav-menu li{
