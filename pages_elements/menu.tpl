@@ -4,12 +4,12 @@
            <li><a id="user">користувач</a>
                 <ul>
                     <li class="sub-user"><a href="{path}/profile.php/?id={id}">мій профіль</a></li>
-                    <li class="sub-user"><a href="{path}/user_message.php/?id={id}">повідомлення</a></li>
+                    <li class="sub-user"><a href="{path}/messages.php/?id={id}">повідомлення</a></li>
                 </ul>	
            </li>
            <li><a id="media">медіа</a>
                 <ul>
-                    <li class="sub-media"><a href="{path}/media_music.php">музика</a></li>
+                    <li class="sub-media"><a href="{path}/music.php">музика</a></li>
                 </ul>
            </li>
            <li><a id="settings">налаштування</a>
