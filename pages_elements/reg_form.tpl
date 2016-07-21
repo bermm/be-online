@@ -1,3 +1,4 @@
+<body>
  <div id="content">
  		<a href="{path}">- На головну -</a><br />
  <br /><strong>реєстрація користувача</strong><br /><br />

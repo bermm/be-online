@@ -7,5 +7,3 @@
 	<link rel="stylesheet" href="{url}/styles/reg.css" />
     <script type="text/javascript" src="{url}/scripts/js/jquery.js"></script>
 </head>
-
-<body>

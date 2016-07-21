@@ -12,12 +12,3 @@
     <script type="text/javascript" src="{url}/scripts/js/search.js"></script>
     <script type="text/javascript" src="{url}/scripts/js/numeral.js"></script> <!--бібліотека для відображення числа в заданому форматі-->
 </head>
-
-<body>
-    <div id="search_field">
-    	<div id="center">
-    		<input id="search_text" type="text" />
-    		<input id="search_button" type="button" value="пошук" />
-        </div>
-    </div>
-    <div id="search_hover"></div>

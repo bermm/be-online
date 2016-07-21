@@ -1,3 +1,4 @@
+        <body>
         <?php
 		echo "<div id=\"login\">";
         $authorization = new Authorization();
@@ -8,15 +9,6 @@
 		$menu =	str_replace('{id}',$_SESSION['id'],$menu);
 		echo $menu;
 		 ?>
-         
-        <!--<center>
-    		<object id="clock" width="" height="">
-				<param name="movie" value="../media/clock.swf">
-				<param name="quality" value="high">
-            	<param name="wmode" value="transparent">
-			</object>
-		</center>-->
-
 	</div>
 	<div class="container">
 		<div id="inconteiner">

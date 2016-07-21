@@ -1,7 +1,4 @@
-﻿/* CSS Document */
-body{
-	background:url(../media/bg.png);
-	padding:5px;}
+/* CSS Document */
 
 .container{
 	background:#FFF;
@@ -12,7 +9,7 @@ body{
 	min-width:850px;
 	min-height:120px;
 	margin:0px auto;
-	margin-top:50px;
+	margin-top:10px;
 	padding:15px;
 	position:relative;}
 

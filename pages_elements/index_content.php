@@ -1,3 +1,4 @@
+<body>
 <div id="content">
 	<?php
 	if (isset($_POST['log_out_btn'])){

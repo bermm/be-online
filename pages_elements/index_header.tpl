@@ -7,5 +7,3 @@
     <link rel="icon" href="../media/icon.ico" />
 	<link rel="stylesheet" href="{url}/styles/index.css" />
 </head>
-
-<body>

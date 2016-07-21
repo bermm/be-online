@@ -1,4 +1,4 @@
-	<div id="menu_container">
+        <body>
         <?php
 			echo "<div id=\"login\">";
         	$authorization = new Authorization();
@@ -8,8 +8,7 @@
 			$menu =	str_replace('{path}',URL,$menu);
 			$menu =	str_replace('{id}',$_SESSION['id'],$menu);
 			echo $menu;
-		 ?> 
-    </div> 
+		 ?>
 	<div class="container">
          		<?php
 					$show_message = new ShowMessage($_SESSION['id']);

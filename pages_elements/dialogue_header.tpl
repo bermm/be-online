@@ -11,16 +11,3 @@
     <script type="text/javascript" src="{url}/scripts/js/jquery.js"></script>
     <script type="text/javascript" src="{url}/scripts/js/search.js"></script>
 </head>
-
-<body>
-    <div id="search_field">
-    	<div id="center">
-    		<input id="search_text" type="text" />
-    		<input id="search_button" type="button" value="пошук" />
-        </div>
-    </div>
-    <div id="search_hover"></div>
-    
-        <audio id="player" controls>
-       		<source src="../media/sound.mp3" type='audio/mpeg; codecs="mp3"'>
-       	</audio>

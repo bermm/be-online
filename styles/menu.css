@@ -1,12 +1,19 @@
-Ôªø/* CSS Document */
-
-/* –ë–û–ö–û–í–ï –ú–ï–ù–Æ*/	
-/*.nav-menu{
+/* CSS Document */
+	
+body{
+	background:url(../media/bg.png);
+	padding:5px;}	
+	
+.nav-menu{
 	list-style:none;
 	text-transform:uppercase;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:14px;
 	width:50px;
+	z-index: 10;
+	position:fixed;
+	left:10px;
+	top: 10px;
 	}
 
 .nav-menu li{
@@ -17,25 +24,26 @@
 	
 .home:hover{
 	width:150px;
-	height:130px;}
+	height:50px;}
 
 .user:hover{
 	width:150px;
-	height:170px;}
+	height:130px;}
 	
 .media:hover{
 	width:150px;
-	height:130px;}	
+	height:90px;}	
 	
 .settings:hover{
 	width:150px;
-	height:210px;}
+	height:90px;}
 	
 .search:hover{
 	width:150px;
 	}	
 	
 .nav-menu li a{
+	text-decoration:none;
 	display:block;
 	width: 150px;
 	height:40px;
@@ -99,117 +107,9 @@
 .search a:first-child::before{
 	background:url(../media/search.ico) center no-repeat;
 	background-size: 48px;
-	}*/
-	
+	}
 
-/*–ú–ï–ù–Æ*/
-nav{
-	background:transparent;
-	text-transform:uppercase;
-	font-family:Tahoma, Geneva, sans-serif;
-	font-size:12px;
-	display:block;
-	text-align:center;}
-	
-nav ul ul{
-	display:none;
-	padding:0px;}
-	
-nav ul li:hover>ul{
-	display:block;}	
-
-#menu{
-	display:inline-block;
-	box-shadow: 0px 2px 2px #06C;}
-
-nav ul{
-	display:inline-block;
-	background:transparent;
-	margin:auto;
-	padding:5px;
-	border-radius:10px;
-	list-style:none;}
-	
-nav ul>li{
-	float:left;
-	width:160px;}
-	
-nav ul li a{
-	text-decoration:none;
-	display:block;
-	margin: 2px;
-	border: 1px solid;
-	padding: 10px;
-	color:#036;
-	border-radius:10px;
-	background:#FFF;
-	text-align:left;}
-	
-nav ul li:hover>a{
-	color:#297ECB;
-	cursor:pointer;}
-	
-nav ul li ul li a{
-	font-size:10px;
-	padding:3px;
-	border-radius:5px;}
-	
-#main{
-	text-indent:30px;
-	background:url(../media/home.ico) center no-repeat;
-	background-size: 32px;
-	background-position: 2px 2px;}
-
-#user{
-	text-indent:25px;
-	background:url(../media/user.ico) center no-repeat;
-	background-size: 32px;
-	background-position: 2px 2px;}
-
-#media{
-	text-indent:30px;
-	background:url(../media/wmplayer.ico) center no-repeat;
-	background-size: 32px;
-	background-position: 2px 2px;}
-
-#settings{
-	text-indent:30px;
-	background:url(../media/settings.ico) center no-repeat;
-	background-size: 32px;
-	background-position: 2px 2px;}
-
-#search{
-	text-indent:30px;
-	background:url(../media/search.ico) center no-repeat;
-	background-size: 32px;
-	background-position: 2px 2px;}
-	
-.sub-user a{
-	text-align:center;}
-	
-.sub-media a{
-	text-align:center;}
-
-.sub-settings a{
-	text-align:center;}
-/*---------------------------*/
-
-/*–ë–õ–û–ö –∑ –ª–æ–≥—ñ–Ω–æ–º —Ç–∞ –º–µ–Ω—é*/
-#menu_container{
-	background:#FFF;
-	border-radius: 0px 0px 10px 10px;
-	border: 2px solid #006;
-	box-sizing:border-box;
-	width:1000px;
-	min-width:500px;
-	height:65px;
-	margin-left:-500px;
-	padding:5px;
-	position:fixed;
-	top:0px;
-	left:50%;
-	z-index:1;
-	box-shadow:0px 3px 2px #06C;}
+/*¡ÀŒ  Á ÎÓ„≥ÌÓÏ Ú‡ ÏÂÌ˛*/
 
 #login{
 	color:#FFF;
